@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filterConfig SYSTEM "../../../../lib/pkp/dtd/filterConfig.dtd">
+
+<!--
+  * plugins/importexport/multilanguagedoi/filter/filterConfig.xml
+  *
+  * Copyright (c) 2014-2020 Simon Fraser University
+  * Copyright (c) 2003-2020 John Willinsky
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  *
+  * Filter Configuration.
+  -->
+<filterConfig>
+	<filterGroups>
+		<!-- multilanguagedoi XML issue output -->
+		<filterGroup
+			symbolic="issue=>multilanguagedoi-xml"
+			displayName="plugins.importexport.multilanguagedoi.displayName"
+			description="plugins.importexport.multilanguagedoi.description"
+			inputType="class::classes.issue.Issue[]"
+			outputType="xml::schema(https://www.multilanguagedoi.org/schemas/multilanguagedoi4.3.6.xsd)" />
+		<!-- multilanguagedoi XML article output -->
+		<filterGroup
+			symbolic="article=>multilanguagedoi-xml"
+			displayName="plugins.importexport.multilanguagedoi.displayName"
+			description="plugins.importexport.multilanguagedoi.description"
+			inputType="class::classes.submission.Submission[]"
+			outputType="xml::schema(https://www.multilanguagedoi.org/schemas/multilanguagedoi4.3.6.xsd)" />
+	</filterGroups>
+	<filters>
+		<!-- multilanguagedoi XML issue output -->
+		<filter
+			inGroup="issue=>multilanguagedoi-xml"
+			class="plugins.importexport.multilanguagedoi.filter.IssuemultilanguagedoiXmlFilter"
+			isTemplate="0" />
+		<!-- multilanguagedoi XML article output -->
+		<filter
+			inGroup="article=>multilanguagedoi-xml"
+			class="plugins.importexport.multilanguagedoi.filter.ArticlemultilanguagedoiXmlFilter"
+			isTemplate="0" />
+	</filters>
+</filterConfig>

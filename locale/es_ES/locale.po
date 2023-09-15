@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:35+00:00\n"
+"PO-Revision-Date: 2020-02-06 19:21+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Spanish <http://translate.pkp.sfu.ca/projects/ojs/"
+"importexport-multilanguagedoi/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.importexport.multilanguagedoi.displayName"
+msgstr "Módulo de exportación multilanguagedoi XML"
+
+msgid "plugins.importexport.multilanguagedoi.description"
+msgstr "Exportar los metadatos del artículo en formato multilanguagedoi XML."
+
+msgid "plugins.importexport.multilanguagedoi.requirements"
+msgstr "Requerimientos"
+
+msgid "plugins.importexport.multilanguagedoi.requirements.satisfied"
+msgstr "Se satisfacen todas las dependencias de módulos."
+
+msgid "plugins.importexport.multilanguagedoi.error.publisherNotConfigured"
+msgstr "No se ha definido la editorial de la revista! Debe añadir la institución editora en la pàgina de <a href=\"{$journalSettingsUrl}\" target=\"_blank\">Preferencias de la Revista</a>."
+
+msgid "plugins.importexport.multilanguagedoi.error.issnNotConfigured"
+msgstr "No se ha definido un ISSN para la revista! Debe añadir un ISSN en la página de <a href=\"{$journalSettingsUrl}\" target=\"_blank\">Preferencias de la Revista</a>."
+
+msgid "plugins.importexport.multilanguagedoi.error.noDOIContentObjects"
+msgstr "No se han seleccionado artículos a los que asignar un idenficador público DOI, por lo tanto, el módulo no puede depositar o exportar nada."
+
+msgid "plugins.importexport.multilanguagedoi.settings.depositorIntro"
+msgstr "Para un correcto depósito en multilanguagedoi, se requieren los siguientes ítems."
+
+msgid "plugins.importexport.multilanguagedoi.settings.form.depositorName"
+msgstr "Nombre del depositario"
+
+msgid "plugins.importexport.multilanguagedoi.settings.form.validation"
+msgstr ""
+"Validar XML. Utilice esta opción para descargar el XML para realizar el "
+"registro manual del DOI."
+
+msgid "plugins.importexport.multilanguagedoi.settings.form.depositorEmail"
+msgstr "Email del depositario"
+
+msgid "plugins.importexport.multilanguagedoi.settings.form.depositorNameRequired"
+msgstr "Introduzca el nombre del depositario."
+
+msgid "plugins.importexport.multilanguagedoi.settings.form.depositorEmailRequired"
+msgstr "Introduzca el email del depositario."
+
+msgid "plugins.importexport.multilanguagedoi.registrationIntro"
+msgstr "Si quiere usar este módulo para registrar Identificadores Digitales de Objeto (Digital Object Identifiers - DOI, en inglés) directamente con multilanguagedoi, necesita un usuario y contraseña (disponible en <a href=\"http://www.multilanguagedoi.org\" target=\"_blank\">multilanguagedoi</a>). Si no dispone de su propio usuario y contraseña, todavía puede exportar en formato XML de multilanguagedoi, pero no podrá registrar sus DOIs en multilanguagedoi directamente desde OJS."
+
+msgid "plugins.importexport.multilanguagedoi.settings.form.username"
+msgstr "Usuario"
+
+msgid "plugins.importexport.multilanguagedoi.settings.form.usernameRequired"
+msgstr "Introduzca el usuario que ha obtenido de multilanguagedoi."
+
+msgid "plugins.importexport.multilanguagedoi.settings.form.automaticRegistration.description"
+msgstr "OJS depositará los DOIs asignados en multilanguagedoi de forma automática. Esto puede tomar un poco de tiempo de proceso tras la publicación. Puede comprobar todos los DOIs no registrados."
+
+msgid "plugins.importexport.multilanguagedoi.settings.form.testMode.description"
+msgstr "Usar la API de pruebas de multilanguagedoi (entorno de testing) para depositar los DOIs. No olvide desactivar esta opción cuando pase a producción."
+
+msgid "plugins.importexport.multilanguagedoi.issues.description"
+msgstr "Nota: Solo los números (y no sus artículos) se toman en consideración para la exportación/registro."
+
+msgid "plugins.importexport.multilanguagedoi.status.failed"
+msgstr "Fallos"
+
+msgid "plugins.importexport.multilanguagedoi.status.registered"
+msgstr "Activos"
+
+msgid "plugins.importexport.multilanguagedoi.status.markedRegistered"
+msgstr "Marcados activo"
+
+msgid "plugins.importexport.multilanguagedoi.statusLegend"
+msgstr ""
+"\n"
+"\t\t<p>Estados de depósito:</p>\n"
+"\t\t<p>\n"
+"\t\t- No depositado: no se ha hecho ningún intento de deposito para este DOI.<br />\n"
+"\t\t- Activo: el DOI se ha depositado y se resuelve correctamente.<br />\n"
+"\t\t- Fallo: el deposito del DOI ha fallado.<br />\n"
+"\t\t- Marcado activo: el DOI fué marcado manualmente como activo.\n"
+"\t\t</p>\n"
+"\t\t<p>Solo se muestran los estados de los últimos intentos de depósito.</p>\n"
+"\t\t<p>Si un deposito fallase, resuelva el problema e intente registrar el DOI de nuevo.</p>"
+
+msgid "plugins.importexport.multilanguagedoi.action.export"
+msgstr "Descargar XML"
+
+msgid "plugins.importexport.multilanguagedoi.action.markRegistered"
+msgstr "Marcar activo"
+
+msgid "plugins.importexport.multilanguagedoi.action.register"
+msgstr "Depositar"
+
+msgid "plugins.importexport.multilanguagedoi.senderTask.name"
+msgstr "Tarea automática de registro en multilanguagedoi"
+
+msgid "plugins.importexport.multilanguagedoi.cliUsage"
+msgstr ""
+"Uso:\n"
+"{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...\n"
+"{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...\n"
+""
+
+msgid "plugins.importexport.multilanguagedoi.export.error.issueNotFound"
+msgstr "No existe ningún número con el ID \"{$issueId}\"."
+
+msgid "plugins.importexport.multilanguagedoi.export.error.articleNotFound"
+msgstr "No existe ningún artículo con el ID \"{$articleId}\"."
+
+msgid "plugins.importexport.multilanguagedoi.register.error.mdsError"
+msgstr "El registro no pudo realizarse! El servidor de registro de DOI retornó un error."
+
+msgid "plugins.importexport.multilanguagedoi.register.success.warning"
+msgstr "El registro se realizó satisfactoriamente. Sin embargo, ocurrieron las siguientes advertencias: '{$param}'."
