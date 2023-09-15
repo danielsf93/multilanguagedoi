@@ -36,7 +36,7 @@ msgid "plugins.importexport.multilanguagedoi.error.noDOIContentObjects"
 msgstr "Os artigos não foram selecionados para a atribuição de DOI no plugin de identificador público do DOI, portanto não há possibilidade de depósito ou exportação neste plugin."
 
 msgid "plugins.importexport.multilanguagedoi.settings.depositorIntro"
-msgstr "Os seguintes items são exigidos para um depósito bem sucedido na multilanguagedoi."
+msgstr "Os seguintes items são exigidos para um depósito bem sucedido na CrossRef."
 
 msgid "plugins.importexport.multilanguagedoi.settings.form.depositorName"
 msgstr "Nome do depositante"
@@ -51,7 +51,7 @@ msgid "plugins.importexport.multilanguagedoi.settings.form.depositorEmailRequire
 msgstr "Por favor digite o email do depositante."
 
 msgid "plugins.importexport.multilanguagedoi.registrationIntro"
-msgstr "Se você quiser usar este plugin para registrar Digital Object Identifiers (DOIs) diretamente com o multilanguagedoi, você precisará de um nome de usuário e senha (disponível em <a href=\"http://www.multilanguagedoi.org\" target=\"_blank\"> multilanguagedoi </a>). Se você não tiver seu próprio nome de usuário e senha, ainda poderá exportar para o formato multilanguagedoi XML, mas não poderá registrar os nomes DOI com a multilanguagedoi a partir do OJS."
+msgstr "Se você quiser usar este plugin para registrar Digital Object Identifiers (DOIs) diretamente com o CrossRef, você precisará de um nome de usuário e senha (disponível em <a href=\"http://www.crossref.org\" target=\"_blank\"> Crossref </a>). Se você não tiver seu próprio nome de usuário e senha, ainda poderá exportar para o formato crossref XML, mas não poderá registrar os nomes DOI com a crossref a partir do OJS."
 
 msgid "plugins.importexport.multilanguagedoi.settings.form.username"
 msgstr "Nome de usuário"
@@ -60,10 +60,10 @@ msgid "plugins.importexport.multilanguagedoi.settings.form.usernameRequired"
 msgstr "Por favor, informe o nome de usuário que você revcebeu da multilanguagedoi."
 
 msgid "plugins.importexport.multilanguagedoi.settings.form.automaticRegistration.description"
-msgstr "O OJS depositará automaticamente os metadados dos DOIs atribuídos na multilanguagedoi. Observe que isso pode levar um curto período de tempo após a publicação do processo. Você pode verificar todas os DOIs não registrados."
+msgstr "O OJS depositará automaticamente os metadados dos DOIs atribuídos na crossref. Observe que isso pode levar um curto período de tempo após a publicação do processo. Você pode verificar todas os DOIs não registrados."
 
 msgid "plugins.importexport.multilanguagedoi.settings.form.testMode.description"
-msgstr "Use a API de teste multilanguagedoi (ambiente de teste) para o depósito DOI. Não se esqueça de remover esta opção para a produção."
+msgstr "Use a API de teste crossref (ambiente de teste) para o depósito DOI. Não se esqueça de remover esta opção para a produção."
 
 msgid "plugins.importexport.multilanguagedoi.issues.description"
 msgstr "Nota: Somente as edições (e não seus artigos) serão considerados para exportação/registro aqui."

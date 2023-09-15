@@ -18,12 +18,12 @@
  */
 
 // XML attributes
-define('multilanguagedoi_XMLNS', 'http://www.multilanguagedoi.org/schema/4.3.6');
+define('multilanguagedoi_XMLNS', 'http://www.crossref.org/schema/4.3.6');
 define('multilanguagedoi_XMLNS_XSI', 'http://www.w3.org/2001/XMLSchema-instance');
 define('multilanguagedoi_XSI_SCHEMAVERSION', '4.3.6');
-define('multilanguagedoi_XSI_SCHEMALOCATION', 'https://www.multilanguagedoi.org/schemas/multilanguagedoi4.3.6.xsd');
+define('multilanguagedoi_XSI_SCHEMALOCATION', 'https://www.crossref.org/schemas/crossref4.3.6.xsd');
 define('multilanguagedoi_XMLNS_JATS', 'http://www.ncbi.nlm.nih.gov/JATS1');
-define('multilanguagedoi_XMLNS_AI', 'http://www.multilanguagedoi.org/AccessIndicators.xsd');
+define('multilanguagedoi_XMLNS_AI', 'http://www.crossref.org/AccessIndicators.xsd');
 
 class multilanguagedoiExportDeployment
 {

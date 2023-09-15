@@ -18,14 +18,14 @@
 			displayName="plugins.importexport.multilanguagedoi.displayName"
 			description="plugins.importexport.multilanguagedoi.description"
 			inputType="class::classes.issue.Issue[]"
-			outputType="xml::schema(https://www.multilanguagedoi.org/schemas/multilanguagedoi4.3.6.xsd)" />
+			outputType="xml::schema(https://www.crossref.org/schemas/crossref4.3.6.xsd)" />
 		<!-- multilanguagedoi XML article output -->
 		<filterGroup
 			symbolic="article=>multilanguagedoi-xml"
 			displayName="plugins.importexport.multilanguagedoi.displayName"
 			description="plugins.importexport.multilanguagedoi.description"
 			inputType="class::classes.submission.Submission[]"
-			outputType="xml::schema(https://www.multilanguagedoi.org/schemas/multilanguagedoi4.3.6.xsd)" />
+			outputType="xml::schema(https://www.crossref.org/schemas/crossref4.3.6.xsd)" />
 	</filterGroups>
 	<filters>
 		<!-- multilanguagedoi XML issue output -->

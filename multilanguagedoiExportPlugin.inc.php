@@ -20,13 +20,13 @@ define('multilanguagedoi_STATUS_FAILED', 'failed');
 
 define('multilanguagedoi_API_DEPOSIT_OK', 200);
 
-define('multilanguagedoi_API_URL', 'https://api.multilanguagedoi.org/v2/deposits');
+define('multilanguagedoi_API_URL', 'https://api.crossref.org/v2/deposits');
 //TESTING
-define('multilanguagedoi_API_URL_DEV', 'https://test.multilanguagedoi.org/v2/deposits');
+define('multilanguagedoi_API_URL_DEV', 'https://test.crossref.org/v2/deposits');
 
-define('multilanguagedoi_API_STAUTS_URL', 'https://api.multilanguagedoi.org/servlet/submissionDownload');
+define('multilanguagedoi_API_STAUTS_URL', 'https://api.crossref.org/servlet/submissionDownload');
 //TESTING
-define('multilanguagedoi_API_STAUTS_URL_DEV', 'https://test.multilanguagedoi.org/servlet/submissionDownload');
+define('multilanguagedoi_API_STAUTS_URL_DEV', 'https://test.crossref.org/servlet/submissionDownload');
 
 // The name of the setting used to save the registered DOI and the URL with the deposit status.
 define('multilanguagedoi_DEPOSIT_STATUS', 'depositStatus');
